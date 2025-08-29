@@ -1,0 +1,70 @@
+
+errors
+// aise exception jinko programmer handle ni kr skta 
+//lack of resource ki wjh s or system m error ho
+//errors exmaple->stack overflow,memory kleak
+//major resoms why an exception occur
+//invalid user input
+//device failure
+
+
+//exception hierarchay
+//object class is root class for all
+//throwable class is super class of errro and exception
+//throwable consits if
+//exceptions
+//error
+
+//exception are of two types
+//user defined
+//in built(comppile time (checked exceptions)abd run time( unchecked exceptions))
+
+
+// Compile Time Exception
+// Ye wo errors hote hain jo compilation ke time (javac se code compile karte waqt) aate hain.
+
+
+// Ye errors program chalne (runtime) ke time aate hain.
+// Compilation time pe koi error nahi dikhai deta, lekin jab program execute hota hai tab crash ho sakta hai.
+
+//jin exception ko compiler check kr skta h run krne s phle called complie time error
+//jo exectution k time pta chlegi run time exception
+
+//checked exception 
+//ClassNotfoundException
+//InterruptException
+//IOException
+//InstantialException
+//SQKException
+//FinalNotFoundException
+
+
+//unchecked exception
+//ArthemeticException
+//ClassCastException
+//NullPointException
+//ArrayIndexOutOfBoundExcception
+//ArrayStoreException
+
+
+//program abnirmally terminate higya hai
+        //compile time m koi errror show ni hoga
+
+
+
+//exception k object m 3 cheeje hongi
+//exception name
+//description
+//stack trace
+
+
+
+//try block is used to specify a block where we should place an exception code fr aisa krn e sexceptiion ni ayegi(exception aa slti hai)
+//catch block u=is used to handle the exception
+//catch syntax->catch(exception class name reference variable)
+//try block exception ko through krega to the catch
+//agr hme exception ni pta name toh just exception hi likh do
+
+//agr kisi code ko hum finally block k andr likhenge toh code execute hoga hi fr chahe exception handle ho ya n ho
+//agr try kr rhe use toh finally ya catch m s kuch tih hina chahiye
+//ek try k sth multiple catch use kr skte haui 
